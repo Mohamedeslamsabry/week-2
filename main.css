@@ -1,0 +1,451 @@
+/* ==================================Genral================================= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Solway", serif;
+
+}
+
+
+
+.clr {
+    clear: both;
+}
+
+/* ======================================End========================================= */
+/* ================================Start Home===================================== */
+#Home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#Home .caption {
+    text-align: center;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+}
+
+#Home .caption span {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+#Home .caption h1 {
+    font-size: 76px;
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 91px;
+
+}
+
+#Home .caption p {
+    font-weight: 400;
+    line-height: 45px;
+    font-size: 24px;
+    padding: 20px 0;
+
+}
+
+#Home .caption button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.btn1 {
+    background-color: #8E7754;
+    margin-right: 10px;
+}
+
+.btn2 {
+    background-color: transparent;
+}
+
+/* ================================End Home===================================== */
+
+
+
+/* ================================Start About=============================== */
+
+
+
+
+.about {
+    padding: 50px;
+    overflow: auto;
+}
+
+.about-img {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text {
+    display: inline-block;
+    width: 55%;
+    padding-left: 60px;
+
+}
+
+.about-text h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about-text p {
+    margin-bottom: 40px;
+
+}
+
+.about-text .about-icon {
+    margin-bottom: 40px;
+}
+
+.about-text .about-icon img {
+    width: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+
+.about-text .about-icon p {
+    display: inline-block;
+
+}
+
+
+/* =============================End About =====================================*/
+
+/*========================== start our location ================================*/
+.our-location {
+    padding: 50px;
+    background-color: #F8F8F8;
+    overflow: auto;
+}
+
+.our-location .text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+
+.our-location .text h2 {
+    line-height: 44px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+.our-location .text p {
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 40px;
+
+}
+
+
+.our-location .img {
+    width: 48%;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.our-location .img img {
+    width: 100%;
+}
+
+
+/*================================== End our location==================================== */
+
+/* ===================================Start ourbacking ============================*/
+.ourbacking {
+    padding: 40px;
+    text-align: center;
+
+}
+
+
+
+.ourbacking h2 {
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+.ourbacking p {
+    padding-bottom: 40px;
+}
+
+
+.ourbacking .item {
+    width: 33%;
+    float: left;
+    padding: 0 30px;
+}
+
+.ourbacking .item img {
+    width: 100%;
+}
+
+.ourbacking .item h3 {
+    padding: 20px 0;
+}
+
+
+
+/* ===================================End ourbacking================================*/
+
+
+/*==================================== Start contact================================ */
+
+.contact {
+    padding: 10px 40px;
+    background-color: gainsboro;
+}
+
+.contact .contact-text {
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+}
+
+.contact .contact-text h2 {
+    padding: 30px 0;
+}
+
+.contact .contact-text p {
+    padding: 10px 0;
+
+}
+
+.contact .contact-text h3 {
+    padding: 20px 0;
+}
+
+.contact .contact-text .contact-menue img {
+    width: 40px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: #8E7754;
+
+}
+
+.contact .contact-text .contact-menue p {
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+
+
+
+.contact .contact-image {
+    width: 40%;
+
+    float: left;
+}
+
+.contact .contact-image img {
+    width: 100%;
+}
+
+
+
+/*============================================= End contact================================== */
+
+/*============================================= Start Blog================================== */
+
+.Blog {
+    padding: 50px;
+    background-color: #403D38;
+}
+
+.Blog .about-blog {
+    width: 25%;
+    float: left;
+}
+
+.Blog .about-blog h3 {
+    padding: 30px 0;
+}
+
+
+.Blog .about-blog p {
+
+    padding-bottom: 20px;
+}
+
+.Blog .about-blog p .par {
+    line-height: 60;
+}
+
+.Blog .about-special {
+    width: 25%;
+    float: left;
+    padding-left: 40px;
+}
+
+
+.Blog .about-special h3 {
+    padding: 10px 0;
+}
+
+.Blog .about-special h4 {
+    padding: 8px 0;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0000005b;
+}
+
+
+.Blog .about-special img {
+    width: 30px;
+    vertical-align: middle;
+
+}
+
+
+
+
+.Blog .about-hours {
+    width: 25%;
+    float: left;
+    padding-left: 30px;
+}
+
+
+.Blog .about-hours h3 {
+    padding: 10px 0;
+}
+
+.Blog .about-hours h4 {
+    padding: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #0000005b;
+
+}
+
+.Blog .about-hours img {
+    width: 30px;
+    vertical-align: middle;
+
+}
+
+.Blog .about-details {
+    width: 25%;
+    float: left;
+    padding-left: 30px;
+    background-image: url(images/contact-details-map.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.Blog .about-details h3 {
+    padding: 10px 0;
+}
+
+.Blog .about-details img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+
+.Blog .about-details h4 {
+    padding: 8px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0000005b;
+}
+
+/* ====================================End Blog=========================================== */
+
+
+/*==================================== Enddddddd========================================== */
+.end {
+    text-align: center;
+    background-color: #3035345e;
+    padding: 50px;
+
+}
+
+
+.end img {
+    padding: 20px 0;
+}
+
+.end p {
+    padding-bottom: 20px;
+}
+
+
+.end-icon img {
+    width: 50px;
+    vertical-align: middle;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 0;
+
+}
+
+
+
+/* ============================================================================================================== */
+
+/* ==============================Start Nav============================== */
+.nav{
+    background-color:#00000049;
+    position: fixed;
+    width: 100%;
+}
+
+
+.continer{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-logo {
+ 
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-menue {
+
+    float: right;
+}
+
+.nav-menue  li{
+    float: left;
+    padding: 15px;
+    
+}
+
+.nav-menue  li a{
+    color: #fff;
+}
